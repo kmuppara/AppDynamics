@@ -1,0 +1,12 @@
+
+Application Configuration:
+-javaagent:D:\Users\learning\Desktop\AppServerAgent-4.4.2.22394\javaagent.jar
+Run As -> Run Configurations -> Arguments 
+
+Database Config:
+java -jar D:\Users\learning\Desktop\dbagent-4.4.2.328\db-agent.jar
+and then properties in Appdynamics site itself
+
+Server Config:
+cd D:\Users\learning\Desktop\machineagent-bundle-64bit-windows-4.4.2.742\
+java -jar machineagent.jar
